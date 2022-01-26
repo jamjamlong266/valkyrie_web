@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid, .container {
+    padding: 5em 15px;
+}
+
+.white-btn {
+    background-color: white;
+    color: black;
+    min-width: 150px;
+    width: auto;
+    max-height: 40px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.home-section {
+    min-height: 600px;
+    height: auto;
+    background-image: url(../images/home-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    width:60vw;
+    height: 50%;
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-section {
+    background-color: aliceblue;
+}
+
+.signup-holder {
+   background-color: black;
+   color: white;
+   padding: 15px 20px;
+   border-radius: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    .home-section {
+        flex-direction: row;
+        justify-content: flex-start;
+    } 
+
+    .home-content {
+        width: 30vw;
+        padding: 40px 20px;
+    }
+}
