@@ -1,0 +1,987 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Valkyrie</title>
+
+    <style type="text/css">
+      p.p1 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 14.0px Arial;
+          color: #000000
+      }
+  
+      p.p2 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p3 {
+          margin: 0.0px 0.0px 0.0px 42.5px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p4 {
+          margin: 0.0px 0.0px 0.0px 36.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000
+      }
+  
+      p.p5 {
+          margin: 0.0px 0.0px 0.0px 36.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff;
+          min-height: 14.0px
+      }
+  
+      p.p6 {
+          margin: 0.0px 0.0px 0.0px 36.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff
+      }
+  
+      p.p7 {
+          margin: 0.0px 0.0px 0.0px 175.5px;
+          text-align: justify;
+          text-indent: -139.5px;
+          font: 12.0px Arial;
+          color: #000000
+      }
+  
+      p.p8 {
+          margin: 0.0px 0.0px 0.0px 180.0px;
+          text-align: justify;
+          text-indent: -137.4px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p9 {
+          margin: 0.0px 0.0px 0.0px 180.0px;
+          text-align: justify;
+          text-indent: -144.0px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p10 {
+          margin: 0.0px 0.0px 0.0px 175.5px;
+          text-align: justify;
+          text-indent: -139.5px;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff
+      }
+  
+      p.p11 {
+          margin: 0.0px 0.0px 0.0px 180.0px;
+          text-align: justify;
+          text-indent: -137.4px;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff;
+          min-height: 14.0px
+      }
+  
+      p.p12 {
+          margin: 0.0px 0.0px 0.0px 177.2px;
+          text-align: justify;
+          text-indent: -141.2px;
+          font: 12.0px Arial;
+          color: #000000
+      }
+  
+      p.p13 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff;
+          min-height: 14.0px
+      }
+  
+      p.p14 {
+          margin: 0.0px 0.0px 8.0px 36.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000
+      }
+  
+      p.p16 {
+          margin: 0.0px 0.0px 0.0px 42.5px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff;
+          min-height: 14.0px
+      }
+  
+      p.p18 {
+          margin: 0.0px 0.0px 0.0px 72.0px;
+          text-align: justify;
+          text-indent: -36.0px;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff;
+          min-height: 14.0px
+      }
+  
+      p.p19 {
+          margin: 0.0px 0.0px 0.0px 36.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p20 {
+          margin: 0.0px 0.0px 0.0px 63.8px;
+          text-align: justify;
+          text-indent: -21.2px;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff;
+          min-height: 14.0px
+      }
+  
+      p.p21 {
+          margin: 0.0px 0.0px 0.0px 137.4px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          background-color: #ffffff;
+          min-height: 14.0px
+      }
+  
+      li.li1 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 14.0px Arial;
+          color: #000000
+      }
+  
+      li.li15 {
+          margin: 0.0px 0.0px 8.0px 0.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000
+      }
+  
+      li.li17 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000
+      }
+  
+      span.s1 {
+          font-kerning: none
+      }
+  
+      span.s2 {
+          text-decoration: underline;
+          font-kerning: none
+      }
+  
+      span.s3 {
+          font-kerning: none;
+          background-color: #ffffff
+      }
+  
+      span.Apple-tab-span {
+          white-space: pre
+      }
+  
+      ol.ol1 {
+          list-style-type: decimal
+      }
+  
+      ol.ol2 {
+          list-style-type: lower-alpha
+      }
+  </style>
+  <style type="text/css" id="isPasted">
+      p.p1 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 14.0px Arial;
+          color: #000000
+      }
+  
+      p.p2 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p3 {
+          margin: 0.0px 0.0px 0.0px 42.5px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p5 {
+          margin: 0.0px 0.0px 0.0px 72.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p6 {
+          margin: 0.0px 0.0px 8.0px 72.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p7 {
+          margin: 0.0px 0.0px 8.0px 72.0px;
+          text-align: justify;
+          text-indent: -36.0px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p8 {
+          margin: 0.0px 0.0px 0.0px 36.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p9 {
+          margin: 0.0px 0.0px 0.0px 72.0px;
+          text-align: justify;
+          text-indent: -36.0px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p10 {
+          margin: 0.0px 0.0px 8.0px 0.0px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p11 {
+          margin: 0.0px 0.0px 0.0px 4.5px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p12 {
+          margin: 0.0px 0.0px 0.0px 85.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p13 {
+          margin: 0.0px 0.0px 0.0px 117.0px;
+          text-align: justify;
+          text-indent: -45.0px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p14 {
+          margin: 0.0px 0.0px 8.0px 117.0px;
+          text-align: justify;
+          text-indent: -45.0px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p15 {
+          margin: 0.0px 0.0px 8.0px 36.0px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      p.p16 {
+          margin: 0.0px 0.0px 8.0px 0.0px;
+          font: 14.0px Arial;
+          color: #000000
+      }
+  
+      p.p17 {
+          margin: 0.0px 0.0px 0.0px 112.5px;
+          text-align: justify;
+          text-indent: -40.5px;
+          font: 12.0px Arial;
+          color: #000000;
+          min-height: 14.0px
+      }
+  
+      li.li1 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 14.0px Arial;
+          color: #000000
+      }
+  
+      li.li4 {
+          margin: 0.0px 0.0px 0.0px 0.0px;
+          text-align: justify;
+          font: 12.0px Arial;
+          color: #000000
+      }
+  
+      span.s1 {
+          text-decoration: underline;
+          font-kerning: none
+      }
+  
+      span.s2 {
+          font-kerning: none
+      }
+  
+      span.s3 {
+          font-kerning: none;
+          background-color: #ffffff
+      }
+  
+      span.s4 {
+          font: 12.0px Arial;
+          font-kerning: none
+      }
+  
+      span.Apple-tab-span {
+          white-space: pre
+      }
+  
+      ol.ol1 {
+          list-style-type: decimal
+      }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" style="padding: 10px 15px !important">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" height="50"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex-row justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="id.html">ID</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <p class="p1"><span class="s1"><strong>VALKYRIES Software &ndash; Terms of Use<span class="Apple-converted-space">&nbsp;</span></strong></span></p>
+<p class="p2"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Preamble<span class="Apple-converted-space">&nbsp;</span></strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">This website and service are provided by <strong>VALKYRIES SOFTWARE</strong> (&ldquo;VALKYRIES Software&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo; or &ldquo;our&rdquo;). These terms of use shall govern your (&ldquo;you&rdquo;, &ldquo;your&rdquo;, or a &ldquo;user&rdquo;, &ldquo;client&rdquo;) access and your use of our websites and its subdomain to engage or utilise the provision of services of computer program with artificial intelligence for automatic execution of crypto assets transactions, orders and trades rendered by us (collectively, the &ldquo;Services&rdquo;).<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">This Terms of Use is applicable to your access to our website and/or your use of our Services. The provisions contained herein shall govern the contractual relationship between you and us.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p6"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">You are advised to&nbsp;</span><span class="s3">read, understand and acknowledge all of the terms and conditions stipulated herein, and you must consent to the processing of your personal data as outlined in the Privacy Policy posted on our website.&nbsp;</span></li>
+    </ol>
+</ol>
+<p class="p5"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">The use of the Services constitutes an acceptance of the Terms of Use, and the conclusion of an agreement between us and you (collectively &ldquo;the Parties&rdquo;) The Terms of Use may be amended from time to time, and any changes, amendment or modification hereto shall be displayed on the Website. Continued use of the Services will be deemed acceptance of the amended Terms of Use.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p7"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">IF YOU DO NOT AGREE OR UNABLE TO COMPLY WITH THE PROVISION CONTAINED HEREUNDER, PLEASE DO NOT USE OUR SERVICES OR ACCESS THE SITE.</span></li>
+    </ol>
+</ol>
+<p class="p8"><br></p>
+<p class="p8"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Scope of Services<span class="Apple-converted-space">&nbsp;</span></strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We have developed and rendering a proprietary Software as a Service (&ldquo;SaaS&rdquo;) developed under the branding, name and goodwill of &ldquo;VALKYRIES Software&rdquo; which is a computer program with artificial intelligence assisting users to automatically execute crypto assets transactions, orders and trades on the exchange market based on the conditions of the strategy or investing portfolio preset by a user.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We will use reasonable efforts to ensure our Services is available on a 24/7 basis.<span class="Apple-converted-space">&nbsp;&nbsp;</span>However, it is possible that on occasion our Services and access to our website may be unavailable to permit maintenance or other development activity to take place, or in the event of Force Majeure.<span class="Apple-converted-space">&nbsp;&nbsp;</span>We will use reasonable efforts to publish on the Website and/or notify you by email advance details of any unavailability.</span></li>
+    </ol>
+</ol>
+<p class="p10"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We may, from time to time, make available additional services to supplement the provision of Services we rendered to you, notwithstanding such additional service features or modules may not be required for the proper functioning of our Services.</span></li>
+    </ol>
+</ol>
+<p class="p2"><br></p>
+<p class="p11"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Terms of Use</strong></span></li>
+</ol>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">We hereby grant you limited, non-exclusive, non-sublicensable, non-transferable license to use this website and the Services. This license is effective until terminated. This license will terminate as set forth under these Terms of Service or if you fail to comply with any term or condition of these Terms of Use. In any such event, we may <span class="Apple-converted-space">&nbsp;&nbsp;</span>terminate, with or without any notice to you, the Services we rendered to you.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">In accessing our website or using the services rendered by us, you hereby undertake and agree to be bound by these Terms of Use, whereby you:<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p12"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s3">must be at least 18 years of age, or the age of majority in your province, territory or country, to become a user of our Services;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><span class="s3"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s3">possess the legal capacity, right and ability to enter into these Terms of Use and to comply with its terms;</span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><span class="s3"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">shall pay to us any applicable costs, charges, fees and/or commission, including any penalties or interest, in connection to your use of our Services based on the specific rates, amount, sum and/or figure as published by us;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">must use the provision of our Services in accordance to these Terms of Use for lawful purpose;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">must not violate any related&nbsp;</span><span class="s3">laws, statutes, legislation, regulations, rules, ordinance, enactment, directives and codes enforceable and effective within Malaysia and/or the jurisdiction of your country of residence or incorporation;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">shall maintain the network or internet connectivity required to access our website and/or the Service over the internet;</span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p14"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">shall maintain adequate and appropriate application programming interface (&ldquo;API&rdquo;) with the Crypto Asset Exchange or Trading Platform of your choice, to use our Services;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">shall not resell or make available the Services to any third party or otherwise, commercially exploit, in whatsoever manner, the Services;</span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">must not use or misuse, the Service rendered by us in a manner which may impair the functionality of our website, Services, underlying systems and computer program or impair the ability or capability of any other user to use our Service;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p14"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">shall not attempt to gain unauthorised access to our website and/or Services, the server on which the website and/or Services are stored or any server, computer and/or database connected to the website and/or Services;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">must not remove or attempt to remove any copyright, trademark or other proprietary rights notices contained in or on our website, Services, underlying system, computer program or any outputs thereof;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">must not, or attempt to,&nbsp;</span><span class="s3">decompile, reverse engineer, disassemble, alter or hack the Services (or any portion thereof), or to defeat or overcome any encryption technology or security measures implemented by us with respect to the Services and/or data transmitted, processed or stored by us;</span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">must not&nbsp;</span><span class="s3">interfere with, manipulate or disrupt the Services or servers or networks connected to the Services or any other user&apos;s use and enjoyment of the Services, or disobey any requirements, procedures, policies or regulations of networks connected to the website;</span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">must not&nbsp;</span><span class="s3">take any action or engage in any conduct that could, regardless directly or indirectly damage, disable, overburden, or impair the Services or the servers or networks connected to the Services rendered by us; and</span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s3">must not upload, transmit, post or otherwise make available any material that contains software viruses, worms, Trojan-horses or any other computer code, routines, files or programs designed to directly or indirectly interfere with, manipulate, interrupt, destroy or limit the functionality or integrity of any computer software or hardware or data or telecommunications equipment.<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Payment and Top-ups</strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">The costs, charges and/or fees of using our Services are collected from you in the form of a commission. The commission shall be computed or calculated based on the profit you receive from each of your crypto assets transaction, orders or trade at the crypto assets Exchange or Trading Platform of your choice in using our Services. We shall collect twenty percent (20%) from the total profit you received from each of your Crypto asset transactions, orders or trade by using our Services. The amount of the commission shall be automatically deducted by us from your VALKYRIES Software wallet upon successful execution of such Cryptocurrency order or trade.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p12"><span class="s2"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">All costs, charges, fees and/or commission, including any penalties or interest, in connection to your use of our Services are calculated and collected by us, in terms of <strong>&ldquo;Tether&rdquo; (USDT) token</strong>.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We reserve the rights to change, modify, re-adjust, increase and/or decrease (collectively &ldquo;revise&rdquo;) the commission rate chargeable by us, from time to time, at our sole and absolute discretion. The revised rate will be published by us on our website.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p7"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">You are required to top-up your VALKYRIES Software wallet and maintain sufficient balance in your VALKYRIES Software wallet to continue to use our Services without disruption. In the event your VALKYRIES Software wallet balance falls below the required minimum balance, the system will prompt a message during your access to our website or Services with your account. You shall top-up your VALKYRIES Software wallet to continue to use our Service.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p15"><br></p>
+<p class="p2"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We reserve our rights to suspend our Services, at our sole and absolute discretion, to you in the event you fail to maintain a minimum balance of &ldquo;Tether&rdquo; (USDT) token in your VALKYRIES Software wallet. You may continue to use our Services when you top-up and maintain sufficient balance. It is your sole responsibility to ensure that the balance in your VALKYRIES Software wallet does not fall below the required minimum balance. TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE HELD LIABLE FOR ANY DAMAGE, LOSS AND/OR DEPLETION, IN ANY EVENT, DUE TO THE SUSPENSION OF OUR SERVICES. <span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Limitation of Liability and Exclusion Clause</strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">THIS WEBSITE AND THE SERVICES ARE PROVIDED &quot;AS IS&quot; AND WITHOUT ANY WARRANTIES, CLAIMS OR REPRESENTATIONS MADE BY US OF ANY KIND EITHER EXPRESSED, IMPLIED OR STATUTORY WITH RESPECT TO THE SERVICES, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF QUALITY, PERFORMANCE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE, NOR ARE THERE ANY WARRANTIES CREATED BY COURSE OF DEALING, COURSE OF PERFORMANCE OR TRADE USAGE. WITHOUT LIMITING THE FOREGOING AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE DOES NOT WARRANT THAT THE SERVICES, THIS WEBSITE OR THE FUNCTIONS CONTAINED THEREIN WILL BE AVAILABLE, ACCESSIBLE, UNINTERRUPTED, TIMELY, SECURE, ACCURATE, COMPLETE OR ERROR-FREE, THAT DEFECTS, IF ANY, WILL BE CORRECTED; OR THAT THIS WEBSITE AND/OR THE SERVER THAT MAKES THE SAME AVAILABLE ARE FREE OF VIRUSES, CLOCKS, TIMERS, COUNTERS, WORMS, SOFTWARE LOCKS, DROP DEAD DEVICES, TROJAN-HORSES, ROUTINGS, TRAP DOORS, TIME BOMBS OR ANY OTHER HARMFUL CODES, INSTRUCTIONS, PROGRAMS OR COMPONENTS.</span></li>
+    </ol>
+</ol>
+<p class="p12"><span class="s3"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">YOU HEREBY ACKNOWLEDGE THAT THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE WEBSITE AND/OR THE SERVICES REMAINS WITH YOU TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.</span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">WE HAVE NO RESPONSIBILITY FOR ANY LOSS OR DAMAGE RESULTING FROM (INCLUDING, BUT NOT LIMITED TO, ANY LOSS OR DAMAGE TO YOUR ACCOUNT OR WALLET) AND ANY WARRANTY DOES NOT APPLY TO ANY SECURITY BREACH RESULTING FROM: (i) ANY MODIFICATIONS OR ALTERATION OF THE SERVICES AND ITS FUNCTIONALITY OR CAPABILITIES THAT IS NOT MADE BY US OR OUR AGENTS; AND/OR (ii) BY MALICIOUS CODE, MALWARE, BOTS, WORMS, TROJANS, BACKDOORS, EXPLOITS, CHEATS, FRAUD, HACKS, HIDDEN DIAGNOSTICS, OR OTHER MECHANISMS TO DISABLE SECURITY OR CONTENT PROTECTION THAT IS RESULTING FROM YOUR NETWORK OR SYSTEM.</span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW,</span><span class="s2">&nbsp;EXCEPT FOR ANY DAMAGES RESULTING FROM ANY BREACH OF EITHER PARTY&rsquo;S CONFIDENTIALITY OBLIGATIONS HEREIN, AND/OR YOUR MISAPPROPRIATION OR OTHERWISE VIOLATION OF OUR INTELLECTUAL PROPERTY RIGHTS (INCLUDING MISUSE OF THE LICENSE GRANTED HEREUNDER); WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES, OR ANY LOSS OF REVENUE, REPUTATION, OR PROFITS, DATA OR DATA USE AGAINST YOU.</span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">EXCEPT FOR: (i) EITHER PARTY&rsquo;S INDEMNIFICATION OBLIGATION HEREIN, (ii) ANY DAMAGES RESULTING FROM ANY BREACH OF EITHER PARTY&rsquo;S CONFIDENTIALITY OBLIGATIONS HEREIN, AND/OR (iii) DAMAGES RESULTING FROM LICENSEE&rsquo;S MISAPPROPRIATION OR OTHERWISE VIOLATION OF OUR INTELLECTUAL PROPERTY RIGHTS (INCLUDING MISUSE OF THE LICENSE GRANTED HEREUNDER); OUR MAXIMUM LIABILITY FOR ANY DAMAGES ARISING OUT OF OR RELATED TO THESE TERMS OF USE, WHETHER IN CONTRACT OR TORT, OR OTHERWISE, SHALL IN NO EVENT EXCEED, IN THE AGGREGATE, THE TOTAL AMOUNTS ACTUALLY PAID TO US IN THE TWELVE (12) MONTH PERIOD IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO SUCH CLAIM. THIS LIMITATION OF LIABILITY IS CUMULATIVE AND NOT PER INCIDENT. FOR CLARITY, THE LIMITATIONS IN THIS SECTION DO NOT APPLY TO PAYMENTS DUE TO US; UNDER THESE TERMS OF USE.</span></li>
+    </ol>
+</ol>
+<p class="p7"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE TO ANY LOSS OR DAMAGES RESULTED FROM ANY DISSIPATION, LOSS, DEPLETION, CONVERSION OR THEFT, FOR WHATSOEVER CAUSED, OF ASSET (INCLUDING CRYPTOCURRENCY OR CRYPTO ASSET) AND/OR FIAT MONIES SUFFERED BY YOU, DUE TO WHATSOEVER REASON, IN CONNECTION TO THE USE OF OUR SERVICES.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p7"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">WE SHALL NOT BE LIABLE TO ANY DAMAGE OR LOSS, WHETHER IN CONTRACT OR TORT OR OTHERWISE, RESULTED BY ANY ACT, NEGLIGENCE AND/OR OMISSION OF ANY THIRD PARTY, INCLUDING WITHOUT LIMITATION, TO THE OPERATOR OF THE CRYPTOCURRENCY EXCHANGE OR TRADING PLATFORM OF YOUR CHOICE.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p2"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">YOU ACKNOWLEDGE AND AGREE THAT YOUR ONLY RIGHT WITH RESPECT TO ANY PROBLEMS OR DISSATISFACTION WITH THE SERVICES IS TO REQUEST FOR TERMINATION OF YOUR ACCOUNT AND/OR DISCONTINUE ANY USE OF THE SERVICES.</span></li>
+    </ol>
+</ol>
+<p class="p12"><br></p>
+<p class="p12"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Website Content and Intellectual Property<span class="Apple-converted-space">&nbsp;</span></strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">The title and/or proprietary rights to, and all Intellectual Property Rights in, our website and any such content contain therein, the provision of Services render by us and all underlying system, programme and/or code is and remains as our property.<span class="Apple-converted-space">&nbsp;&nbsp;</span>You must not contest or dispute that ownership or the validity of those Intellectual Property Rights.</span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">In using our Services, you hereby acknowledges and agrees that we may (i) use any data or information about your use of our Services to generate anonymised and aggregated statistical and analytical data; (ii) use such analytical data for our internal research and business development purposes, including conducting statistical analysis to identify the trends and insights of the use of our Services; (iii) share and/or disclose such analytical data with any third party; and title, proprietary and Intellectual Property rights of such analytical data shall remain and retained by us as our property.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">In the course of using our Services, you may provide us with ideas, comments, feedbacks, suggestions and/or recommendations relating to the Services or Underlying Systems (collectively as<strong>&nbsp;&ldquo;feedback&rdquo;</strong>), whereby all title and/or Intellectual Property rights in such feedback and any information, result, material, documents, data and/or development, including without limitation to new enhancement, modification and/or derivatives works, created as a result of such feedback are solely owned by us; and we may use or disclose such feedback for any purposes.<span class="Apple-converted-space">&nbsp; &nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p10"><br></p>
+<p class="p16"><strong>&nbsp; &nbsp; 7. &nbsp; &nbsp;</strong><span class="s2"><strong>Personal Data Protection<span class="Apple-converted-space">&nbsp;</span></strong></span></p>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We endeavor to ensure full compliant to the Personal Data Protection and Privacy laws. Your privacy is very important to us. Our privacy policy clearly explains about how your personal data is protected and secured by us.&nbsp;</span><span class="s3">Please read the Privacy Policy to understand how we collects, use and disclose any personal data or information associated with your Account and/or your usage of the Services rendered by us. By using the Services or providing any such information on our website, you hereby:</span></li>
+    </ol>
+</ol>
+<p class="p5"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s3">consent to our collection, use, disclosure and/or processing of your personal data and user information in such manner as outlined in the Privacy Policy; and</span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p17"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s3">shall not, whether directly or indirectly, disclose your User Information to any third party, or otherwise allow any third party to access or use your User Information, without our prior written consent.</span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p8"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">Your continued access of our website and/or use of our Services shall constitute acceptance and acknowledgment to our Privacy Policy.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p12"><br></p>
+<p class="p12"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Cyber Hygiene and Network Security<span class="Apple-converted-space">&nbsp;</span></strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We will maintain appropriate administrative, technical and physical safeguards to protect the security, confidentiality and integrity of the Service and any Data stored on, or accessible via, the Service rendered by us.</span></li>
+    </ol>
+</ol>
+<p class="p9"><span class="s2"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">You hereby agree to maintain your password and any login credentials secured and confidential. You shall use only your User ID and password when logging in and always ensure that you log out from your account at the end of each session accessing our website to use our Services.<span class="Apple-converted-space">&nbsp;&nbsp;</span>You are required to ensure that all your information provided under your login credentials are up-to-date and accurate.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p7"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">You are fully responsible for all activities, transactions and/or exercise (collectively &ldquo;actions&rdquo;) which occurred or carried out under your login credentials (including User ID and User Account), regardless whether such actions are carried out by you or your authorised representative. You must notify us immediately of any unauthorised use of your Account, User ID and/or password. We shall not be liable for any loss or damages arising out of or caused by any unauthorised use of your login credentials, Account, User ID and/or password or your failure or omission in complying to this Clause.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p12"><br></p>
+<p class="p12"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Suspension, Cancellation and Termination of Services<span class="Apple-converted-space">&nbsp;</span></strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We may, at our sole and absolute discretion, suspend and/or terminate the Services (including your access to your Account using your login credentials), in the event that:<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">your Account remain inactive for a continuous and consecutive period of six (6) months;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p13"><span class="s2"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">you fail to make any payment for any applicable costs, charges, fees and/or commission, including any penalties or interest, in connection to your use of our Services based on the specific rates, amount, sum and/or figure as published by us;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p14"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">you commit or attempt to commit any material breach of the provisions of these Terms of Use;<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p14"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">you become bankrupt or insolvent, enters into an arrangement with creditors, has a receiver or administrator appointed; and/or<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p14"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <ol class="ol1">
+            <li class="li4"><span class="s2">we are required to stop, cease and/or discontinue to provide our Services to you by virtue of any laws, regulation, enactment, ordinance, rules, directives, codes and/or Order, passed or issued by any government bodies, agency, authority and/or Court of law with competent jurisdiction.<span class="Apple-converted-space">&nbsp;</span></span></li>
+        </ol>
+    </ol>
+</ol>
+<p class="p2"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">You may terminate, cease, discontinue and/or cancel any of your use of our Services at any time. The termination, cessation, discontinuation and/or cancellation of your use of our Services is effective when you stop the access to our website and/or logging in your Account with your login credentials (including User ID and password) to use the SaaS as rendered by us.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><span class="s3"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">Any such effective termination, cessation, discontinuation and/or cancellation of your use of our Services, howsoever caused, shall not affect any rights and liabilities which have accrued and/or become due prior to the date of such termination, cessation, discontinuation and/or cancellation.<span class="Apple-converted-space">&nbsp;</span></span></li>
+        <li class="li4"><span class="s2">The exercise of right of termination which afforded to you under this Clause shall not prejudice any legal rights or remedies which we may have against you in respect of any breach of the provision of these Terms of Use.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p12"><br></p>
+<p class="p12"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Indemnification<span class="Apple-converted-space">&nbsp;</span></strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">You agree to indemnify, defend and hold harmless our Company, and its subsidiaries, affiliates, officers, agents partners, and employees (collectively the &quot;Indemnified Parties&quot;) from and against any and all claims, actions, proceedings, and suits and all related liabilities, damages, losses, penalties, fines, costs and expenses (including, without limitation, any other dispute resolution expenses) incurred by any Indemnified Party arising out of or relating to: (i) your breach of any law or any rights of a third party; (ii) your violation or breach of any terms of these Terms of Use or any policy or guidelines referred hereunder; (iii) your use or misuse of the Services; and (iv) any transactions carried out by you using our Services.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p12"><br></p>
+<p class="p12"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Links of Third-Party Website or Services</strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">Any links or information in respect of a third-party website or services may be provided by us as a courtesy or merely as a convenience. Any such third-party links provided throughout our website may lead you to leave our website and/or access such third-party&rsquo;s website or information. We have no control over any such third-party&rsquo;s link or website in whatsoever manner and you are advised to access these links and websites at your own risks. We fully disclaim any responsibility, liability or obligation, under whatsoever circumstances, to the content or any reliance to such content of the third-party&rsquo;s links, website, information or services.</span><span class="s3">&nbsp;The inclusion of any such links, does not in any way, express or imply, any affiliation, endorsement or sponsorship by us of any such linked website and/or any of its content therein.</span><span class="s2"><span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p12"><br></p>
+<p class="p12"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Severability</strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">In the event that any provision of these Terms of Use is held invalid or unenforceable in any jurisdiction shall be ineffective to the extent of such invalidity or unenforceability without invalidating or rendering unenforceable the remaining provisions hereof, and any such invalidity or unenforceability in any jurisdiction shall not invalidate or render unenforceable such provision in any other jurisdiction.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p12"><br></p>
+<p class="p10"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>Governing Law and Dispute Resolution<span class="Apple-converted-space">&nbsp;</span></strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">These Terms of Use, any non-contractual obligations arising out of or in connection with the provisions hereof, shall be governed by and construed in accordance with the laws of Malaysia.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><span class="s2"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">Any questions, dispute or differences which arise out of or in connection with these Terms of Use or its construction, operation or termination shall be referred and resolved to a single arbitrator in the Asian International Arbitration Centre (&ldquo;AIAC&rdquo;), Kuala Lumpur to be agreed between the Parties. Failing such agreement within fourteen (14) days of the request by one party to the other that a matter be referred to arbitration in accordance with this Clause, such reference shall be to an arbitrator appointed by the President for the time being of the AIAC. The seat of the arbitration shall be Malaysia and the arbitration proceeding shall be conducted in accordance to the rules of the AIAC. The decision of such arbitrator shall be final and binding upon the Parties.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">Notwithstanding anything contained in this Clause, either Party shall be entitled to refer to the Courts of competent jurisdiction, in relation to any equitable relief including injunctive relief or remedies sought, and in that regard, the Parties hereby submit to the non-exclusive jurisdiction of the Courts of Malaysia.</span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<p class="p2"><br></p>
+<ol class="ol1">
+    <li class="li1"><span class="s2"><strong>General and Miscellaneous Provisions <span class="Apple-converted-space">&nbsp;</span></strong></span></li>
+</ol>
+<p class="p3"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We</span><span class="s3">&nbsp;reserve all rights not expressly granted herein.</span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">These Terms of Use constitutes the entire agreement between the Parties and supersedes and invalidates all other commitments, representations, promises, understanding, assurance, statement and warranties, whether express or implied, relating to the subject matter hereof which may have been made by the Parties either orally or in writing prior to your access of the website or usage of our Services, and which shall become null and void from the date of entering into agreement pursuant to these Terms of Use.&nbsp;</span><span class="s3">The provisions of these Terms of Service may not be contradicted, explained or supplemented by evidence of any prior agreement, any contemporaneous oral agreement or any consistent additional terms.</span></li>
+    </ol>
+</ol>
+<p class="p9"><span class="s3"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">Nothing contained in these Terms of Use shall be so construed as to constitute you or us to be the agent of the other.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">These Terms of Use shall not operate so as to create a partnership or joint venture of any kind between the Parties hereto.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><span class="s3"><span class="Apple-converted-space">&nbsp;</span></span></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">We reserve the rights to improve, modify, amend, revise or change any provisions of these Terms of Use, at any time, without prior notice. Any such amendment shall be posted on the website. Your continued access to the website and usage of our Services&nbsp;</span><span class="s3">shall constitute your acceptance of such revised Terms of Service.</span></li>
+    </ol>
+</ol>
+<p class="p2"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">You may not assign, sublicense or transfer any rights granted to you hereunder or subcontract any of your obligations.</span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">In no event shall any delay, failure or omission on our part in enforcing, exercising or pursuing any rights, power, privilege, claim or remedy which is conferred by these Terms of Use, or arises under these Terms of Use, or arises from any breach by you or any other party to these Terms of Use of any of your or its obligation hereunder, be deemed to be or be construed as (i) a waiver thereof, or of any other such rights, power, privilege, claim or remedy, in respect of the particular circumstances in question; or (ii) operate so as to bar the enforcement or exercise thereof, or of any other such right, power, privilege, claim or remedy, in any other instance at any time or times thereafter.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">By accessing our website and/or using our Services, you hereby agree to comply with all applicable laws, statutes, regulations, rules, ordinance, directives and codes relating, without limitation, to anti-bribery and corruption, anti-money laundering and financing of terrorism, non-proliferation of weapons of mass destruction or any other crime.<span class="Apple-converted-space">&nbsp;</span></span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s3">We will send you information relating to your account, including without limited to, payment authorizations; invoices; changes in password or Payment Method; confirmation messages; notices in electronic form, via emails to your email address provided during registration.</span></li>
+    </ol>
+</ol>
+<p class="p9"><br></p>
+<ol class="ol1">
+    <ol class="ol1">
+        <li class="li4"><span class="s2">In the event of any queries, concerns, complaints or feedback about the provision of these Terms of Use or any issues raised in connection of these Terms of Use or on the website, please contact us by sending us a message at the &ldquo;contact us&rdquo; page.</span></li>
+    </ol>
+</ol>
+        
+    </div>
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
