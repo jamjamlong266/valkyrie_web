@@ -8,6 +8,10 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container-fluid, .container {
     padding: 5em 15px;
 }
@@ -78,6 +82,22 @@ html, body {
 
 .card-holder>* {
     margin: 10px 0;
+}
+
+.app-logo {
+    width: 200px;
+    height: 70px;
+    background-image: url(../images/app-download.png);
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+}
+
+.ios-app {
+    background-position: 0 0px;
+}
+
+.android-app {
+    background-position: 0 80px;
 }
 
 @media screen and (min-width: 700px) {
