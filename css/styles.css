@@ -9,6 +9,11 @@ html, body {
     scroll-behavior: smooth;
 }
 
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
 img {
     max-width: 100%;
 }
